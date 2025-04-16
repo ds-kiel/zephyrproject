@@ -138,6 +138,8 @@ Open a new terminal and execute the following commands:
         which STM32_Programmer_CLI
         # If empty or error, run:
         export PATH=/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin:$PATH
+        source ~/.bashrc
+        which STM32_Programmer_CLI
         ```
 
     3.  Connect to the serial port:
