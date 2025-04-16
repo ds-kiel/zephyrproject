@@ -83,3 +83,9 @@ To expand the flash memory of M7 and shrink M4, replace the original content wit
     };
 };
 ```
+Or n the terminal, run the following:
+```
+STM32_Programmer_CLI -c port=SWD \        
+  -w ./build/zephyr/zephyr.bin 0x08000000 \
+  -rdu \
+  -ob BOOT_CM4_ADD0=0x81f ```
