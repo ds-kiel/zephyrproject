@@ -118,6 +118,8 @@ or for nrf5340.
 
 ### 5. View Terminal Outputs
 
+Open a new terminal and execute the following commands:
+
 1.  **For nRF Boards:**
 
     ```bash
