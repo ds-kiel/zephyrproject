@@ -152,3 +152,5 @@ or for nrf5340.
         west build -p auto -b stm32h747i_disco/stm32h747xx/m7 samples/modules/tflite-micro/hello_world
         west flash
         ```
+### 6. Necessary modifications to run models with Fully Connected and LSTM layers
+Follow the steps mentioned in **modifications.md**.
